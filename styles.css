@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.hero-banquete {
+  background: url("img/hero-banquete.jpg") 50% 0 no-repeat;
+}
+
+.hero-fundacion {
+  background: url("img/hero-fundacion.jpg") 50% 0 no-repeat;
+}
+
+.hero-inicio {
+  background: url("img/hero-inicial.jpg") 50% 0 no-repeat;
+}
+
+.hero {
+  padding-top: 56px;
+  background-size: cover;
+}
+
+.hero-transparent-light,
+.hero-transparent-black {
+  padding: 100px 10%;
+}
+
+
+.hero-transparent-light p,
+.hero-transparent-light h1 {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.hero-transparent-black p,
+.hero-transparent-black h1 {
+  background: rgba(0, 0, 0, 0.8);
+}
