@@ -6,28 +6,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lound Nicolás - TP 2</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="vendors/bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/bootstrap-icons-1.10.5/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <img src="img/logo.png" alt="Logo la Fundación Klemm" class="img-fluid">
-      <div class="nav">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-          aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar">
-          <div class="navbar-nav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link active" aria-current="page" disabled href="elbanquete.html">El banquete</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="lafundacion.html">La fundación</a>
-          </div>
-        </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -47,13 +52,13 @@
       <div class="row">
         <div class="col-12 col-lg-6">
           <p>Durante 1994, Klemm en colaboración con el crítico de arte Carlos Espartaco, inició la emisión de programas
-            televisivos sobre temas de arte, denominados “El Banquete Telemático”, en la señal de Canal Arte
-            –posteriormente Canal á-. Dichos programas contenían un lenguaje mediático que oscilaba entre la televisión
+            televisivos sobre temas de arte, denominados <em>El Banquete Telemático</em>, en la señal de Canal Arte
+            -posteriormente Canal á-. Dichos programas contenían un lenguaje mediático que oscilaba entre la televisión
             experimental y artística, logrando una fusión entre el arte performativo y la expresión telemática.</p>
           <p>La emisión de 232 programas para un público masivo desde 1994 a 2002, abarcaba temas relacionados a
             artistas nacionales e internacionales y ciclos especiales de historia del arte, entre los que se destacan
             aquellos dedicados a la transvanguardia, el museo imaginario, el arte conceptual, las instalaciones, el arte
-            culto, el kitsch, la mujer en la historia del arte, el arte en la década del ´60, la posmodernidad, el pop
+            culto, el kitsch, la mujer en la historia del arte, el arte en la década del '60, la posmodernidad, el pop
             art, la inserción de la pintura en la historia universal, arte y democracia, el cambio en la mirada, entre
             muchos otros dedicados a artistas puntuales.</p>
         </div>
@@ -68,20 +73,16 @@
       <div class="row">
         <div class="col-12 col-lg-6">
           <p>Con el aval de Mecenazgo Cultural, se iniciaron en 2020 los proyectos de digitalización de los 232
-            programas
-            televisivos de “El Banquete Telemático” y su material en crudo, junto a la organización y conservación de
-            sus
-            archivos documentales, entre los que se hallan fotografías, escritos y correspondencia. En alianza con el
-            Museo
-            del Cine “Pablo Ducrós Hicken” de la Ciudad de Buenos Aires, comenzaron los procesos de visualización de los
-            programas para poner en valor las cintas que se encontraban en estado de vulnerabilidad tecnológica y de
-            necesidad de preservación. Asimismo, en convenio con El Centro de Estudios Espigas, TAREA, perteneciente a
-            la
-            Universidad de San Martín, comenzaron las tareas de conservación del Archivo de la Fundación, que incluye
-            documentos relacionados a la Colección Klemm y a la producción de los programas “El Banquete Telemático”, en
-            estado de deterioro propios del tiempo, decoloración fotográfica progresiva y necesidad de un registro de
-            los
-            actores culturales presentes en las fotografías para contribuir a la preservación de la memoria.</p>
+            programas televisivos de <em>El Banquete Telemático</em> y su material en crudo, junto a la organización y
+            conservación de sus archivos documentales, entre los que se hallan fotografías, escritos y correspondencia.
+            En alianza con el Museo del Cine <em>Pablo Ducrós Hicken</em> de la Ciudad de Buenos Aires, comenzaron los
+            procesos de visualización de los programas para poner en valor las cintas que se encontraban en estado de
+            vulnerabilidad tecnológica y de necesidad de preservación. Asimismo, en convenio con El Centro de Estudios
+            Espigas, TAREA, perteneciente a la Universidad de San Martín, comenzaron las tareas de conservación del
+            Archivo de la Fundación, que incluye documentos relacionados a la Colección Klemm y a la producción de los
+            programas <em>El Banquete Telemático</em>, en estado de deterioro propios del tiempo, decoloración
+            fotográfica progresiva y necesidad de un registro de los actores culturales presentes en las fotografías
+            para contribuir a la preservación de la memoria.</p>
         </div>
         <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
           <img src="img/tv.png" alt="Televisión con una imagen del programa" class="p-5">
@@ -92,22 +93,15 @@
       <div class="row">
         <div class="col-12 col-lg-6">
           <p>
-
             Esta puesta en valor del patrimonio audiovisual y documental no solamente da lugar a la Alianza con equipos
             profesionales e instituciones culturales de gran nombre, sino también contribuye a que sus resultados
-            redunden
-            en investigación profesional y de estudiantes, capacitación y visibilidad de un material hoy en estado de
-            emergencia y muy requerido para fomentar más acciones culturales futuras.
-
-
-
+            redunden en investigación profesional y de estudiantes, capacitación y visibilidad de un material hoy en
+            estado de emergencia y muy requerido para fomentar más acciones culturales futuras.
           </p>
           <p>
             En este sentido, la realización del proyecto contribuye a la apreciación y comprensión del patrimonio
-            cultural,
-            manteniendo sus características físicas, su significado social y asegurando su continuidad para las próximas
-            generaciones.
-
+            cultural, manteniendo sus características físicas, su significado social y asegurando su continuidad para
+            las próximas generaciones.
           </p>
         </div>
         <div class="col-12 col-lg-6 d-flex justify-content-center align-items-start">
@@ -128,7 +122,7 @@
             <iframe src="https://player.vimeo.com/video/161210056?h=967db0467d" width="440" height="295" frameborder="0"
               allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
           </div>
-        
+
         </div>
       </article>
     </div>
@@ -169,5 +163,6 @@
   </footer>
 
 </body>
+<script src="vendors/bootstrap/5.0.2/js/bootstrap.min.js"></script>
 
 </html>

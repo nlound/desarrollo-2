@@ -6,28 +6,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lound Nicolás - TP 2</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="vendors/bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/bootstrap-icons-1.10.5/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <img src="img/logo.png" alt="Logo la Fundación Klemm" class="img-fluid">
-      <div class="nav">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-          aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#" disabled>Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" disabled href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="elbanquete.html">El banquete</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="lafundacion.html">La fundación</a>
-          </div>
-        </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -46,28 +51,17 @@
   <section class="pt-5 pb-5">
     <div class="container pb-5">
       <article class="row">
-        <h2 class="text-center pt-5 pb-5">La fundación</h2>
-        <p class="col-12 col-lg-6">Creada en 1995, la Fundación Federico Jorge Klemm abrió sus puertas en el espacio
-          contiguo a la Galeria homónima que funcionó entre 1992 y 1995. Heredera de aquel proyecto, sus prácticas y
-          trayectoria, la Fundación nació como un espacio para que las obras de la colección de Federico Klemm tuvieran
-          clara visibilidad pública, con acceso a todas las comunidades, libre y gratuito, y acompañando a la difusión
-          del patrimonio nacional e internacional con un programa de exhibiciones temporales de arte argentino
-          contemporáneo. En 1997, Federico Klemm sumó a la Fundación el Premio Klemm a las Artes Visuales, una
-          convocatoria anual para promover a artistas jóvenes locales, y que representa la vía principal de crecimiento
-          de la colección, sumando dos obras de arte emergente, a partir de los dos primeros premios adquisición. Este
-          proyecto, de gran prestigio en la comunidad artística celebra, en 2020, sus 24 años de solidez y
-          reconocimiento.</p>
-        <p class="col-12 col-lg-6">“En la fundación que lleva mi nombre hemos instaurado una nueva concepción en cuanto
-          a la creación de un espacio con vida propia que podemos definir como museo global, donde se exhiben
-          colecciones en función didáctica y museológica que al mismo tiempo cubren las necesidades de los amantes del
-          arte, de los coleccionistas y de la crítica especializada, y donde la obra adquiere una nueva dimensión dentro
-          del arte como idea, para dejar un testimonio histórico del quehacer artístico desde el fin de milenio que nos
-          toca vivir. Nuestra misión es de una gran responsabilidad, porque asumimos nuestra deuda con el arte argentino
-          en una proyección global que trascienda las dificultades de nuestra ubicación geográfica. Continuamente surgen
-          nuevos valores artísticos y se consolidan internacionalmente artistas argentinos, lo que hace suponer que
-          estamos cerca de logros muy importantes en el campo del arte y que se pueden producir sorpresas muy
-          gratificantes. Por eso mismo uno de los preceptos esenciales de nuestra fundación es promover a los artistas
-          jóvenes.” FK, 1997.</p>
+        <h2 class="text-center pt-5 pb-5">El artista</h2>
+        <p class="col-12 col-lg-6">Federico Klemm nació el 25 de marzo de 1942 en Checoslovaquia, y fue a partir de 1948
+          que la familia decidió radicarse en Buenos Aires. Como pintor autodidacta, y con intereses marcados hacia lo
+          artístico desde temprana edad, realizó desde los 14 años estudios sobre la obra de Toulouse Lautrec, Picasso,
+          Van Gogh y algunos pintores argentinos que lo impresionaban. Estudió, además, canto lírico con Ruzena Horakova
+          y arte dramático con Marcelo Lavalle, perfeccionando su aprendizaje de la pintura en talleres de artistas
+          argentinos contemporáneos.</p>
+        <p class="col-12 col-lg-6">Fue un eximio coleccionista, formó una colección única en Latinoamérica, fue mecenas,
+          visionario, pionero en la gestión de fundaciones artísticas en nuestro país, y como artista, se destacó como
+          performer. Queer antes del queer; fotográfo digital antes del uso masivo de este medio localmente; y todo un
+          filántropo que creía en el <em>arte para todos</em>.</p>
       </article>
     </div>
   </section>
@@ -389,7 +383,7 @@
       </div>
     </article>
   </section>
-
+  <div style="width: 100%">
   <footer class="bg-dark pt-5 pb-5">
     <div class="container text-light">
       <div class="row">
@@ -424,9 +418,7 @@
   </footer>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+  <script src="vendors/bootstrap/5.0.2/js/bootstrap.min.js"></script>
   <script>
     var modalGaleria = document.getElementById('modalGaleria')
     modalGaleria.addEventListener('show.bs.modal', function (event) {

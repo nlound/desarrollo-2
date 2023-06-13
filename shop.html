@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lound Nicolás - TP 2</title>
+  <link rel="stylesheet" href="vendors/bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/bootstrap-icons-1.10.5/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="vendors/jquery/plugins/smartcart/3.0.1/css/smart_cart.min.css" />
+  <link rel="stylesheet" href="vendors/jquery/plugins/smartcart/3.0.1/css/smart_cart.dark.css" />
+  <link rel="stylesheet" href="vendors/jquery/plugins/whatsapp-floatbox/0.2.0/css/wafloatbox-0.2.min.css" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <img src="img/logo.png" alt="Logo la Fundación Klemm" class="img-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="elbanquete.html">El banquete</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lafundacion.html">La fundación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" disabled href="shop.html">Shop</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero hero-shop">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="cl-12 col-lg-8 offset-lg-4 hero-transparent-light">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="pt-5 pb-5">
+    <div class="container pb-5">
+      <h2 class="text-center pt-5 pb-5">Shop</h2>
+
+      <div class="row pb-4">
+        <div class="col-12 col-lg-8 offset-lg-2 d-flex flex-column align-items-center pb-5">
+          <p>Una oportunidad única para comprar estampas originales de las obras pertenecientes a la Fundación.</p>
+        </div>
+        <div class="col-12 col-lg-3 pb-4">
+          <div class="card">
+            <div class="card-body sc-product-item">
+              <img src="img/obra-01.jpg" class="card-img-top" alt="Foto de la obra">
+              <p data-name="product_name" class="card-text">Naturaleza muerta</p>
+              <p data-name="product_desc" class="card-text text-muted">Mónica Heller</p>
+              <input name="product_price" value="500" type="hidden" />
+              <input name="product_id" value="1" type="hidden" />
+              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 pb-4">
+          <div class="card">
+            <div class="card-body sc-product-item">
+              <img src="img/obra-02.jpg" class="card-img-top" alt="Foto de la obra">
+              <p data-name="product_name" class="card-text">Esperando en la noche</p>
+              <p data-name="product_desc" class="card-text text-muted">Santiago García Sáenz</p>
+              <input name="product_price" value="500" type="hidden" />
+              <input name="product_id" value="2" type="hidden" />
+              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 pb-4">
+          <div class="card">
+            <div class="card-body sc-product-item">
+              <img src="img/obra-03.jpg" class="card-img-top" alt="Foto de la obra">
+              <p data-name="product_name" class="card-text">Mental</p>
+              <p data-name="product_desc" class="card-text text-muted">Fernanda Laguna</p>
+              <input name="product_price" value="500" type="hidden" />
+              <input name="product_id" value="3" type="hidden" />
+              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 pb-4">
+          <div class="card">
+            <div class="card-body sc-product-item">
+              <img src="img/obra-04.jpg" class="card-img-top" alt="Foto de la obra">
+              <p data-name="product_name" class="card-text">Conversación con estructura</p>
+              <p data-name="product_desc" class="card-text text-muted">Carla Grunauer</p>
+              <input name="product_price" value="500" type="hidden" />
+              <input name="product_id" value="4" type="hidden" />
+              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 pb-4">
+          <div class="card">
+            <div class="card-body sc-product-item">
+              <img src="img/obra-05.jpg" class="card-img-top" alt="Foto de la obra">
+              <p data-name="product_name" class="card-text">Inmolación I (Estudio I)</p>
+              <p data-name="product_desc" class="card-text text-muted">Federico Klemm</p>
+              <input name="product_price" value="500" type="hidden" />
+              <input name="product_id" value="5" type="hidden" />
+              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 pb-4">
+          <div class="card">
+            <div class="card-body sc-product-item">
+              <img src="img/obra-06.jpg" class="card-img-top" alt="Foto de la obra">
+              <p data-name="product_name" class="card-text">Peñas</p>
+              <p data-name="product_desc" class="card-text text-muted">Xul Solar</p>
+              <input name="product_price" value="500" type="hidden" />
+              <input name="product_id" value="6" type="hidden" />
+              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 pb-4">
+          <div class="card">
+            <div class="card-body sc-product-item">
+              <img src="img/obra-07.jpg" class="card-img-top" alt="Foto de la obra">
+              <p data-name="product_name" class="card-text">Oscura flor circular</p>
+              <p data-name="product_desc" class="card-text text-muted">Carolina Antoniadis</p>
+              <input name="product_price" value="500" type="hidden" />
+              <input name="product_id" value="7" type="hidden" />
+              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 pb-4">
+          <div class="card">
+            <div class="card-body sc-product-item">
+              <img src="img/obra-08.jpg" class="card-img-top" alt="Foto de la obra">
+              <p data-name="product_name" class="card-text">Sainte Affligée</p>
+              <p data-name="product_desc" class="card-text text-muted">Pierre et Gilles</p>
+              <input name="product_price" value="500" type="hidden" />
+              <input name="product_id" value="8" type="hidden" />
+              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 pb-4">
+          <div class="card">
+            <div class="card-body sc-product-item">
+              <img src="img/obra-09.jpg" class="card-img-top" alt="Foto de la obra">
+              <p data-name="product_name" class="card-text">¿A que distancia hay que estar de la tierra?</p>
+              <p data-name="product_desc" class="card-text text-muted">Ananké Asseff</p>
+              <input name="product_price" value="500" type="hidden" />
+              <input name="product_id" value="9" type="hidden" />
+              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 pb-4">
+          <div class="card">
+            <div class="card-body sc-product-item">
+              <img src="img/obra-10.jpg" class="card-img-top" alt="Foto de la obra">
+              <p data-name="product_name" class="card-text">Los replicantes de David</p>
+              <p data-name="product_desc" class="card-text text-muted">Federico Klemm</p>
+              <input name="product_price" value="500" type="hidden" />
+              <input name="product_id" value="10" type="hidden" />
+              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class=" bg-light pt-5 pb-5">
+    <div class="container pb-5">
+      <article class="row">
+        <h2 class="text-center pt-5">Carrito</h2>
+        <div class="col-12 col-lg-8 offset-lg-2 d-flex flex-column align-items-center">
+          <form action="results.php" class="w-100" method="POST">
+            <!-- SmartCart element -->
+            <div id="smartcart"></div>
+          </form>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <div class="myk-wa">
+    <div class="myk-item" data-wanumber="+5491100000000" data-waname="Juan" data-wadivision="Ventas"
+      data-waava="img/wa-ventas.png"></div>
+    <div class="myk-item" data-wanumber="+5491100000001" data-waname="Mirtha" data-wadivision="Administración"
+      data-waava="img/wa-administracion.png"></div>
+  </div>
+
+  <footer class="bg-dark pt-5 pb-5">
+    <div class="container text-light">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <p class="mb-0 small">Nicolas Lound - Desarrollo II - 1 2 A</p>
+          <p class="mb-0 small">Marcelo T de Alvear 626. 4312-3334 / 4443 <a
+              href="mailto:info@fundacionfjklemm.org">info@fundacionfjklemm.org</a></p>
+          <p class="small">FKLEMM 2023 - Copyright &copy; Todos los derechos reservados</p>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <p class="mb-0 small">Todo el material de este sitio pertenece al patrimonio de la Fundación Federico Jorge
+            Klemm</p>
+          <p class="small">Para mas información visite el sitio oficial <a href="https://www.fundacionfjklemm.org/"
+              target="_blank">https://www.fundacionfjklemm.org/</a></p>
+        </div>
+
+        <div class="col-12 col-lg-2 d-flex justify-content-start justify-content-lg-evenly pb-4">
+          <a href="https://www.facebook.com/people/Fundaci%C3%B3n-Federico-Jorge-Klemm-Oficial/100057227509509/"
+            target="_blank" class="text-light me-2"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/fundacionklemm/" target="_blank" class="text-light me-2"><i
+              class="bi bi-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCT0NZwZwEj_bQx5LtDwkhig/featured" target="_blank"
+            class="text-light me-2"><i class="bi bi-youtube"></i></a>
+          <a href="https://vimeo.com/user3712852" target="_blank" class="text-light me-2"><i
+              class="bi bi-vimeo"></i></a>
+        </div>
+        <div class="col-12 col-lg-2">
+          <img src="img/logo-footer.png" alt="Logo Fundación">
+        </div>
+      </div>
+  </footer>
+
+</body>
+<script src="vendors/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+<script src="vendors/bootstrap/5.0.2/js/bootstrap.min.js"></script>
+<script src="vendors/jquery/plugins/smartcart/3.0.1/js/jquery.smartCart.min.js" type="text/javascript"></script>
+<script src="vendors/jquery/plugins/whatsapp-floatbox/0.2.0/js/wafloatbox-0.2.min.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    // Initialize Whatsapp
+    $(".myk-wa").WAFloatBox();
+
+    // Initialize Smart Cart    	
+    $('#smartcart').smartCart(
+      {
+        theme: "dark",
+        lang:
+        {
+          cartTitle: '',
+          checkout: 'Comprar',
+          clear: 'Vaciar',
+          subtotal: 'Subtotal:',
+          cartRemove: '×',
+          cartEmpty: 'Su carrito de compras está vacío'
+        },
+      }
+    );
+  });
+</script>
+
+</html>

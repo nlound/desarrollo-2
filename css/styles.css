@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import "reset.css";
 
 * {
   box-sizing: border-box;
@@ -24,15 +25,19 @@ h5 {
 }
 
 .hero-banquete {
-  background: url("img/hero-banquete.jpg") 50% 0 no-repeat;
+  background: url("../img/hero-banquete.jpg") 50% 0 no-repeat;
 }
 
 .hero-fundacion {
-  background: url("img/hero-fundacion.jpg") 50% 0 no-repeat;
+  background: url("../img/hero-fundacion.jpg") 50% 0 no-repeat;
 }
 
 .hero-inicio {
-  background: url("img/hero-inicial.jpg") 50% 0 no-repeat;
+  background: url("../img/hero-inicial.jpg") 50% 0 no-repeat;
+}
+
+.hero-shop {
+  background: url("../img/hero-shop.jpg") 50% 0 no-repeat;
 }
 
 .hero {
@@ -54,4 +59,14 @@ h5 {
 .hero-transparent-black p,
 .hero-transparent-black h1 {
   background: rgba(0, 0, 0, 0.8);
+}
+
+.myk-wa {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.myk-btn{
+  display: table;
 }
