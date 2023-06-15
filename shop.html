@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="vendors/jquery/plugins/smartcart/3.0.1/css/smart_cart.min.css" />
   <link rel="stylesheet" href="vendors/jquery/plugins/smartcart/3.0.1/css/smart_cart.dark.css" />
   <link rel="stylesheet" href="vendors/jquery/plugins/whatsapp-floatbox/0.2.0/css/wafloatbox-0.2.min.css" />
+  <link rel="stylesheet" href="vendors/jquery/plugins/magnific-popup/1.1.0/css/magnific-popup.css" />
 
   <link rel="stylesheet" href="css/styles.css" />
 
@@ -55,146 +56,33 @@
   <section class="pt-5 pb-5">
     <div class="container pb-5">
       <h2 class="text-center pt-5 pb-5">Shop</h2>
-
-      <div class="row pb-4">
+      <div class="row pb-4" id="productosShop">
         <div class="col-12 col-lg-8 offset-lg-2 d-flex flex-column align-items-center pb-5">
           <p>Una oportunidad única para comprar estampas originales de las obras pertenecientes a la Fundación.</p>
-        </div>
-        <div class="col-12 col-lg-3 pb-4">
-          <div class="card">
-            <div class="card-body sc-product-item">
-              <img src="img/obra-01.jpg" class="card-img-top" alt="Foto de la obra">
-              <p data-name="product_name" class="card-text">Naturaleza muerta</p>
-              <p data-name="product_desc" class="card-text text-muted">Mónica Heller</p>
-              <input name="product_price" value="500" type="hidden" />
-              <input name="product_id" value="1" type="hidden" />
-              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 pb-4">
-          <div class="card">
-            <div class="card-body sc-product-item">
-              <img src="img/obra-02.jpg" class="card-img-top" alt="Foto de la obra">
-              <p data-name="product_name" class="card-text">Esperando en la noche</p>
-              <p data-name="product_desc" class="card-text text-muted">Santiago García Sáenz</p>
-              <input name="product_price" value="500" type="hidden" />
-              <input name="product_id" value="2" type="hidden" />
-              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 pb-4">
-          <div class="card">
-            <div class="card-body sc-product-item">
-              <img src="img/obra-03.jpg" class="card-img-top" alt="Foto de la obra">
-              <p data-name="product_name" class="card-text">Mental</p>
-              <p data-name="product_desc" class="card-text text-muted">Fernanda Laguna</p>
-              <input name="product_price" value="500" type="hidden" />
-              <input name="product_id" value="3" type="hidden" />
-              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 pb-4">
-          <div class="card">
-            <div class="card-body sc-product-item">
-              <img src="img/obra-04.jpg" class="card-img-top" alt="Foto de la obra">
-              <p data-name="product_name" class="card-text">Conversación con estructura</p>
-              <p data-name="product_desc" class="card-text text-muted">Carla Grunauer</p>
-              <input name="product_price" value="500" type="hidden" />
-              <input name="product_id" value="4" type="hidden" />
-              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 pb-4">
-          <div class="card">
-            <div class="card-body sc-product-item">
-              <img src="img/obra-05.jpg" class="card-img-top" alt="Foto de la obra">
-              <p data-name="product_name" class="card-text">Inmolación I (Estudio I)</p>
-              <p data-name="product_desc" class="card-text text-muted">Federico Klemm</p>
-              <input name="product_price" value="500" type="hidden" />
-              <input name="product_id" value="5" type="hidden" />
-              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 pb-4">
-          <div class="card">
-            <div class="card-body sc-product-item">
-              <img src="img/obra-06.jpg" class="card-img-top" alt="Foto de la obra">
-              <p data-name="product_name" class="card-text">Peñas</p>
-              <p data-name="product_desc" class="card-text text-muted">Xul Solar</p>
-              <input name="product_price" value="500" type="hidden" />
-              <input name="product_id" value="6" type="hidden" />
-              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 pb-4">
-          <div class="card">
-            <div class="card-body sc-product-item">
-              <img src="img/obra-07.jpg" class="card-img-top" alt="Foto de la obra">
-              <p data-name="product_name" class="card-text">Oscura flor circular</p>
-              <p data-name="product_desc" class="card-text text-muted">Carolina Antoniadis</p>
-              <input name="product_price" value="500" type="hidden" />
-              <input name="product_id" value="7" type="hidden" />
-              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 pb-4">
-          <div class="card">
-            <div class="card-body sc-product-item">
-              <img src="img/obra-08.jpg" class="card-img-top" alt="Foto de la obra">
-              <p data-name="product_name" class="card-text">Sainte Affligée</p>
-              <p data-name="product_desc" class="card-text text-muted">Pierre et Gilles</p>
-              <input name="product_price" value="500" type="hidden" />
-              <input name="product_id" value="8" type="hidden" />
-              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 pb-4">
-          <div class="card">
-            <div class="card-body sc-product-item">
-              <img src="img/obra-09.jpg" class="card-img-top" alt="Foto de la obra">
-              <p data-name="product_name" class="card-text">¿A que distancia hay que estar de la tierra?</p>
-              <p data-name="product_desc" class="card-text text-muted">Ananké Asseff</p>
-              <input name="product_price" value="500" type="hidden" />
-              <input name="product_id" value="9" type="hidden" />
-              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 pb-4">
-          <div class="card">
-            <div class="card-body sc-product-item">
-              <img src="img/obra-10.jpg" class="card-img-top" alt="Foto de la obra">
-              <p data-name="product_name" class="card-text">Los replicantes de David</p>
-              <p data-name="product_desc" class="card-text text-muted">Federico Klemm</p>
-              <input name="product_price" value="500" type="hidden" />
-              <input name="product_id" value="10" type="hidden" />
-              <button class="sc-add-to-cart btn btn-outline-secondary btn-sm">Agregar al carrito</button>
-            </div>
-          </div>
         </div>
       </div>
     </div>
   </section>
 
+
   <section class=" bg-light pt-5 pb-5">
     <div class="container pb-5">
-      <article class="row">
+      <div class="row">
         <h2 class="text-center pt-5">Carrito</h2>
         <div class="col-12 col-lg-8 offset-lg-2 d-flex flex-column align-items-center">
           <form action="results.php" class="w-100" method="POST">
             <!-- SmartCart element -->
-            <div id="smartcart"></div>
+            <div class="scrollme">
+
+              <div class="" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0"
+                data-scale="1.5">
+                <div id="smartcart"></div>
+              </div>
+            </div>
+
           </form>
         </div>
-      </article>
+      </div>
     </div>
   </section>
 
@@ -243,10 +131,30 @@
 <script src="vendors/bootstrap/5.0.2/js/bootstrap.min.js"></script>
 <script src="vendors/jquery/plugins/smartcart/3.0.1/js/jquery.smartCart.min.js" type="text/javascript"></script>
 <script src="vendors/jquery/plugins/whatsapp-floatbox/0.2.0/js/wafloatbox-0.2.min.js" type="text/javascript"></script>
+<script src="vendors/jquery/plugins/scrollme/1.1.0/jquery.scrollme.min.js" type="text/javascript"></script>
+<script src="vendors/jquery/plugins/magnific-popup/1.1.0/js/jquery.magnific-popup.min.js"
+  type="text/javascript"></script>
+
+<script src="js/shop.js" type="text/javascript"></script>
 
 
 <script type="text/javascript">
   $(document).ready(function () {
+
+    // Initialize magnific Popup
+    $('.magnific-popup').magnificPopup({
+      type: 'image',
+      mainClass: 'mfp-with-zoom',
+      zoom: {
+        enabled: true,
+        duration: 300,
+        easing: 'ease-in-out',
+        opener: function (openerElement) {
+          return openerElement.is('img') ? openerElement : openerElement.find('img');
+        }
+      }
+    });
+
     // Initialize Whatsapp
     $(".myk-wa").WAFloatBox();
 
